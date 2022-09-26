@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'EGDL'
+project = 'easy-grokking-deep-learning'
 copyright = '2022, isLinXu'
 author = 'isLinXu'
 
@@ -55,8 +55,11 @@ html_theme = "sphinx_book_theme"
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
-
 html_theme_options = {
-    "repository_url": "https://github.com/datawhalechina/easy-grokking-deep-learning",
+    "repository_url": "https://github.com/datawhalechina/easy-grokking-deep-learning/",
     "use_repository_button": True,
+    "use_issues_button": True,
+    "use_edit_page_button": True,
 }
+
+html_title = "轻松学习深度学习"
